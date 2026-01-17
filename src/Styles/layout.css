@@ -1,0 +1,29 @@
+.layout {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.map-container {
+    flex: 3;
+}
+
+.side-panel {
+    flex: 1;
+    background: #f4f6f8;
+    padding: 10px;
+    overflow: auto;
+}
+
+.panel {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+button {
+    margin-right: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
